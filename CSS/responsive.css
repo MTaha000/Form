@@ -1,0 +1,140 @@
+@media(max-width:900px){
+    .datetime h1{
+        font-size: 35px;
+    }
+    .datetime h2{
+        font-size: 20px;
+    }
+    .location span{
+        font-size: 20px;
+    }
+}
+@media(max-width:750px){
+    .logo img{
+        width: 300px;
+    }
+    .content{
+        font-size: 20px;
+        width: 150px;
+    }
+    .arrow img{
+        height: 35px;
+    }
+    .stamp-container{
+        height: 150px;
+    }
+    .stamp img{
+        width: 200px;
+    }
+    .btn{
+        width: 200px;
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    .stamp-text p{
+        font-size: 15px;
+    }
+    .location span{
+        font-size: 15px;
+    }
+    .location h3{
+        font-size: 12px;
+    }
+    .footer img{
+        width: 200px;
+        height: 22px;
+    }
+}
+@media(max-width:622px){
+    .logo img{
+        width: 250px;
+    }
+    .content{
+        font-size: 15px;
+        width: 100px;
+    }
+    .arrow img{
+        height: 25px;
+    }
+    .datetime h1{
+        font-size: 25px;
+    }
+    .datetime sup{
+        font-size: 15px;
+    }
+    .datetime h2{
+        font-size: 15px;
+    }
+    .input input{
+        width: 70%;
+    }
+    .stamp-container{
+        height: 100px;
+    }
+    .stamp img{
+        width: 150px;
+    }
+    .policy{
+        margin-bottom: 50px;
+    }
+    .stamp-text p{
+        font-size: 10px;
+    }
+    .btn{
+        width: 150px;
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+}
+@media(max-width:500px){
+    .logo img{
+        width: 200px;
+    }
+    .content{
+        font-size: 13px;
+        width: 100px;
+    }
+    .arrow img{
+        height: 25px;
+        width: 10px;
+    }
+    .datetime{
+        height: 180px;
+    }
+    .datetime h1{
+        font-size: 20px;
+    }
+    .datetime sup{
+        font-size: 10px;
+    }
+    .datetime h2{
+        font-size: 12px;
+    }
+    .input input{
+        width: 60%;
+    }
+    .stamp-container{
+        height: 100px;
+    }
+    .stamp img{
+        width: 130px;
+        position: absolute;
+        top: 12px;
+        right: 5px;
+    }
+    .policy{
+        margin-bottom: 50px;
+    }
+    .stamp-text p{
+        font-size: 10px;
+    }
+    .btn{
+        width: 130px;
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    .footer img{
+        width: 150px;
+        height: 20px;
+    }
+}

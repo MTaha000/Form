@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <title>FORM</title>
+</head>
+
+<body>
+    <div class="head">
+        <div class="nav"><img src="IMAGES/Cancel.jpeg" alt=""></div>
+        <div class="logo-container">
+            <div class="responsive">
+                <div class="logo"><img src="IMAGES/logo-removebg-preview.png" alt=""></div>
+                <div class="text">
+                    <div class="content">
+                        <h5>REGISTER FOR CLASS BELOW</h5>
+                    </div>
+                    <div class="arrow"><img src="IMAGES/Arrow-removebg-preview.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="datetime">
+            <div class="date">
+                <div class="date-container">
+                    <h2>COURSE DATE :</h2>
+                    <h1>20<sup>TH</sup> OCTOBER
+                    </h1>
+                </div>
+            </div>
+            <div class="time">
+                <div class="time-container">
+                    <h2>COURSE TIME :</h2>
+                    <h1>9:30<sup>AM</sup> - 2:30<sup>PM</sup>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="location">
+            <div class="res">
+                <h3>LOCATION :<img src="IMAGES/Location.png"> <span> EMBA Building, America University Of Dubai,
+                        Dubai</span></h3>
+            </div>
+        </div>
+    </div>
+    <div class="form">
+        <div class="detail">
+            <h4>YOUR DETAILS:</h4>
+        </div>
+        <div class="input">
+            <label>Full Name</label>
+            <input id="fname"  type="text" placeholder="Enter Your Full Name">
+        </div>
+        <span id="name" class="error"></span>
+        <div class="input">
+            <label>Nationality</label>
+            <input id="nation"  type="text" placeholder="Enter Your Nationality">
+        </div>
+        <span id="nationality" class="error"></span>
+        <div class="input">
+            <label>Job Title</label>
+            <input id="jobtitle" type="text" placeholder="Enter Your Job Title">
+        </div>
+        <span id="job" class="error"></span>
+        <div class="input">
+            <label>Agency</label>
+            <input id="agnc" type="text" placeholder="Enter Your Agency Name">
+        </div>
+        <span id="agency" class="error"></span>
+        <div class="input">
+            <label>Email</label>
+            <input id="mail" type="text" placeholder="Enter Your Work Email Address">
+        </div>
+        <span id="email" class="error"></span>
+        <div class="input">
+            <label class="label" for=""></label>
+            <div class="box">
+                <div class="checkbox">
+                    <input class="check" type="checkbox">
+                </div>
+                <div class="policy">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum accusamus porro amet cupiditate,
+                        cumque rem molestiae reprehenderit distinctio Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Facere, soluta!
+                    </p>
+                    <a href="">PRIVACY POLICY</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="stamp-container">
+        <div class="button-box">
+            <button class="btn" onclick="validation()">Register Now</button>
+        </div>
+        <div class="stamp">
+            <div class="empty">
+                <label for=""></label>
+            </div>
+            <div class="stamp-text">
+                <p>AFTER REGISTRATIONYOU WILL RECEIVE  A  QR CODE ACCESS THE EVENT</p>
+            </div>
+            <div class="stamp-logo">
+                <img src="IMAGES/Stamp.png">
+            </div>
+
+        </div>
+        <div class="footer">
+            <img src="IMAGES/Footer.png">
+        </div>
+    </div>
+
+    <script>
+        function error(){
+
+        }
+        function validation(){
+            let fname = document.getElementById("fname").value;
+            if(fname == ""){
+                document.getElementById("name").innerHTML = "*Please Fill Your Name"
+            }else{
+                document.getElementById("name").innerHTML = ""
+            }
+            
+            let nation = document.getElementById("nation").value;
+            if(nation == ""){
+                document.getElementById("nationality").innerHTML = "*Please Fill your Nationality"
+                document.getElementById("nation").classList.add("invalid")
+            }
+            else{
+                document.getElementById("nationality").innerHTML = ""
+                document.getElementById("nation").classList.remove("invalid")
+            }
+
+            let jobtitle = document.getElementById("jobtitle").value;
+            if(jobtitle == ""){
+            document.getElementById("job").innerHTML = "*Please Fill Your Job Title"
+            }
+            if(jobtitle !== ""){
+            document.getElementById("job").innerHTML = ""
+            }
+            let agnc = document.getElementById("agnc").value;
+            if(agnc == ""){
+            document.getElementById("agency").innerHTML = "*Please Fill Agency Name"
+            }
+            if(agnc !== ""){
+            document.getElementById("agency").innerHTML = ""
+            }
+            let mail = document.getElementById("mail").value;
+            if(mail == ""){
+            document.getElementById("email").innerHTML = "*Please Fill Your Email Address "
+            }
+            if(mail !== ""){
+            document.getElementById("email").innerHTML = ""
+            }
+
+        }
+    </script>
+</body>
+
+</html>
