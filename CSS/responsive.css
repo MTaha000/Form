@@ -85,6 +85,11 @@
         font-size: 15px;
         padding: 10px 15px;
     }
+    .error{
+        width: 35%;
+        font-size: 15px;
+        
+    }
 }
 @media(max-width:500px){
     .logo img{
@@ -111,7 +116,10 @@
         font-size: 12px;
     }
     .input input{
-        width: 60%;
+        width: 75%;
+    }
+    .input label{
+        font-size: 17px;
     }
     .stamp-container{
         height: 100px;
@@ -136,5 +144,72 @@
     .footer img{
         width: 150px;
         height: 20px;
+    }
+    .error{
+        width: 35%;
+        font-size: 12px;
+        
+    }
+}
+@media(max-width:380px){
+    .logo img{
+        width: 150px;
+    }
+    .content{
+        font-size: 11px;
+        width: 100px;
+    }
+    .arrow img{
+        height: 20px;
+        width: 10px;
+    }
+    .datetime{
+        height: 160px;
+    }
+    .datetime h1{
+        font-size: 17px;
+    }
+    
+    .input input{
+        width: 70%;
+    }
+    .input label{
+        font-size: 15px;
+    }
+    .stamp-container{
+        height: 100px;
+    }
+    .stamp img{
+        width: 120px;
+        position: absolute;
+        top: 17px;
+        right: 0px;
+    }
+    .policy{
+        margin-bottom: 50px;
+    }
+    .stamp-text p{
+        font-size: 8px;
+    }
+    .btn{
+        width: 110px;
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+    .footer img{
+        width: 120px;
+        height: 15px;
+    }
+    .error{
+        margin-left: 50px;
+        width: 45%;
+        font-size: 12px;
+        
+    }
+    .location span{
+        font-size: 12px;
+    }
+    .location h3{
+        font-size: 12px;
     }
 }
